@@ -1,9 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-	@extends('layouts.main')
-	@section('header')
+@extends('layouts.main')
 
-	@stop
+@section('content')
 		<!--// Main Section \\-->
 		<div class="ereaders-main-section ereaders-counterfull">
 			<div class="container">
@@ -363,7 +360,4 @@
             </div>
         </div>
         <!--// Main Section \\-->
- @section('footer')
-
- @stop
-</html>
+@endsection

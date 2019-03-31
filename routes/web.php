@@ -17,5 +17,9 @@
 
 Route::get('/', function () {
   return view('layouts.index');
+  // return view('layouts.main');
 });
-
+Route::get('/contacts', function () {
+  return view('layouts.contacts');
+  // return view('layouts.main');
+});

@@ -11,6 +11,7 @@ class IndexController extends Controller
     //
     public function execute(Request $request) {
     		return view('layouts.index');
+    		// return view('layouts.main');
 
     }
 }

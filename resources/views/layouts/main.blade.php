@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-@section('header')
+
 	<head>
 	 <meta charset="utf-8">
 	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,15 +9,15 @@
 	 <title>Ereaders Home Page</title>
 
 	 <!-- Css Files -->
-	 <link rel="stylesheet" href="{{asset('css/bootstrap.css') }}">
-	 <link rel="stylesheet" href="{{asset('assets/css/font-awesome.css')}}">
-	 <link rel="stylesheet" href="{{asset('assets/css/flaticon.css')}}">
-	 <link rel="stylesheet" href="{{asset('assets/css/slick-slider.css')}}">
-	 <link rel="stylesheet" href="{{asset('assets/css/fancybox.css')}}">
-	 <link rel="stylesheet" href="{{asset('assets/style.css')}}">
-	 <link rel="stylesheet" href="{{asset('assets/css/color.css')}}">
-	 <link rel="stylesheet" href="{{asset('assets/css/responsive.css')}}">
-
+	 <link href="css/bootstrap.css" rel="stylesheet">
+	 <link href="css/font-awesome.css" rel="stylesheet">
+	 <link href="css/flaticon.css" rel="stylesheet">
+	 <link href="css/slick-slider.css" rel="stylesheet">
+	 <link href="css/fancybox.css" rel="stylesheet">
+	 <link href="style.css" rel="stylesheet">
+	 <link href="css/color.css" rel="stylesheet">
+	 <link href="css/responsive.css" rel="stylesheet">
+	 
 	 
 
 	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -113,7 +113,7 @@
 										<li><a href="priceplan.html">Pricing Plan</a></li>
 										<li><a href="faq.html">Our FAQ</a></li>
 										<li><a href="search-result.html">Search Result</a></li>
-										<li><a href="contact-us.html">Contact Us</a></li>
+										<li><a href="/contact">Contact Us</a></li>
 									</ul>
 								</li>
 							</ul>
@@ -180,11 +180,13 @@
 
 	<!--// Main Content \\-->
 	<div class="ereaders-main-content ereaders-content-padding">
-@show
+
+@yield('content')
+@yield('contacts')
 		<!--// Main Section \\-->
 		
         <!--// Main Section \\-->
-@section('footer')
+
 	</div>
 	<!--// Main Content \\-->
 
@@ -256,4 +258,3 @@
 
 	</body>
 </html>
-@show
