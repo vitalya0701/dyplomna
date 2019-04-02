@@ -6,7 +6,7 @@
 	 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 	 <meta name="viewport" content="width=device-width, initial-scale=1">
 	 <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	 <title>Ereaders Home Page</title>
+	 <title>Dyplomna:)</title>
 
 	 <!-- Css Files -->
 	 <link href="css/bootstrap.css" rel="stylesheet">
@@ -37,89 +37,37 @@
 		<div class="ereaders-main-header">
 			<div class="container">
 				<div class="row">
-					<aside class="col-md-3"> <a href="index.html" class="logo"><img src="images/logo.png" alt=""></a> </aside>
+					<aside class="col-md-3"> <a href="{{ route('main') }}" class="logo"><img src="images/logo.png" alt=""></a> </aside>
 					<aside class="col-md-9">
 						<!--// Navigation \\-->
 						<a href="#menu" class="menu-link active"><span></span></a>
 						<nav id="menu" class="menu navbar navbar-default">
 							<ul class="level-1 navbar-nav">
-								<li class="active"><a href="index.html">Головна</a></li>
-								<li><a href="#">наш блок</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+								<li class="active"><a href="/">Головна</a></li>
+								<li><a href="/blog/public/literature">Комп'ютерна література</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 									<ul class="sub-menu level-2">
-										<li><a href="blog-grid.html">Наш блок1</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="blog-grid-wls.html">Blog Grid W/L/S</a></li>
-												<li><a href="blog-grid-wrs.html">Blog Grid W/R/S</a></li>
-											</ul>
+										<li><a href="blog-grid.html">Apple</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 										</li>
-										<li><a href="blog-large.html">Blog Large</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="blog-large-wls.html">Blog Large W/L/S</a></li>
-											</ul>
+										<li><a href="blog-large.html">Microsoft</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 										</li>
-										<li><a href="blog-detail.html">Blog Detail</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="blog-detail-wls.html">Blog Detail W/L/S</a></li>
-											</ul>
+										<li><a href="blog-detail.html">Основи Інформатики</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+										</li>
+										<li><a href="blog-detail.html">Інтернет і web-культура</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+										</li>
+										<li><a href="blog-detail.html">Комп'ютерні ігри</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 										</li>
 									</ul>
 								</li>
-								<li><a href="#">Книги</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-									<ul class="sub-menu level-2">
-										<li><a href="book-grid.html">Book Grid</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="book-grid-wls.html">Book Grid W/L/S</a></li>
-												<li><a href="book-grid-wrs.html">Book Grid W/R/S</a></li>
-											</ul>
-										</li>
-										<li><a href="author-detail.html">Author Detail</a></li>
-										<li><a href="book-detail.html">Book Detail</a></li>
-									</ul>
+								<li><a href="/blog/public/popular">Популярне</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
-								<li><a href="#">Events</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-									<ul class="sub-menu level-2">
-										<li><a href="event-list.html">Event List</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="event-list-wls.html">Event List W/L/S</a></li>
-											</ul>
-										</li>
-										<li><a href="event-detail.html">Event Detail</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="event-detail-wls.html">Event Detail W/L/S</a></li>
-											</ul>
-										</li>
-									</ul>
+								<li><a href="#">Особистий Кабінет</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
-								<li><a href="#">Our Shop</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-									<ul class="sub-menu level-2">
-										<li><a href="shop-grid.html">Shop Grid</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="shop-grid-wls.html">Shop Grid W/L/S</a></li>
-												<li><a href="shop-grid-v2.html">Shop Grid V2</a></li>
-											</ul>
-										</li>
-										<li><a href="shop-list.html">Shop List</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-											<ul class="sub-menu">
-												<li><a href="shop-list-wls.html">Shop List W/L/S</a></li>
-											</ul>
-										</li>
-										<li><a href="shop-detail.html">Shop Detail</a></li>
-									</ul>
+								<li><a href="/blog/public/books">Книги Програмування</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
-								<li><a href="#">Pages</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-									<ul class="sub-menu level-2">
-										<li><a href="about-us.html">About Us</a></li>
-										<li><a href="404.html">Error Page</a></li>
-										<li><a href="priceplan.html">Pricing Plan</a></li>
-										<li><a href="faq.html">Our FAQ</a></li>
-										<li><a href="search-result.html">Search Result</a></li>
-										<li><a href="/contact">Contact Us</a></li>
-									</ul>
+								<li><a href="/blog/public/contacts">Наші Контакти</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
 							</ul>
 						</nav>
-						<!--// Navigation \\-->
-						<a href="404.html" class="ereaders-simple-btn ereaders-bgcolor">Download</a>
 					</aside>
 			 	</div>
 			</div>
@@ -139,9 +87,9 @@
 					<div class="row">
 						<div class="col-md-7">
 							<div class="ereaders-banner-text">
-								<h2>The Best <span>Books</span></h2>
-								<h3>Sale up to 30% off</h3>
-								<p>Quisque ultricies luctus nisi non dapibus. Nullam efficitur lorem non libe blandit, non rhoncus libero tristique.</p>
+								<h2>Комп'ютерна Література <span>та програмування</span></h2>
+								<h3>Рекомендуємо</h3>
+								<p>Тут ви можете знайти ту інформацію, яка вам необхідна в комп'ютерному напрямі.</p>
 								<a href="404.html" class="ereaders-simple-btn ereaders-bgcolor">Buy Now</a>
 							</div>
 						</div>
@@ -159,9 +107,9 @@
 					<div class="row">
 						<div class="col-md-7">
 							<div class="ereaders-banner-text-two">
-								<h2>Showcase And Sell</h2>
-								<h3>Your e-book In Simple Way</h3>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ull am lacinia tortor erat, eget scelerisque magna efficitur ut. Sus pendisse potenti.</p>
+								<h2>Заходь, читай, застосовуй!</h2>
+								<h3>Інформація в різних напрямках.</h3>
+								<p> Цей Інтернет - магазин призначений як для тих, хто ще не знає, з якого боку підійти до комп'ютера, так і для користувачів зі стажем. Він буде цікавим також і для спеціалістів в галузі комп'ютерних технологій. В нашому Інтернет - магазині ви зможете прочитати або скачати книги про будову комп'ютера, а також про Основи Інформатики і Інернет і web-культурі.</p>
 								<div class="clearfix"></div>
 								<a href="404.html" class="ereaders-simple-btn ereaders-bgcolor">Buy Now</a>
 							</div>

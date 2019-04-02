@@ -19,8 +19,8 @@
         		<div class="row">
         			<div class="col-md-12">
         				<ul>
-				            <li><a href="index.html">Homepage</a></li>
-				            <li class="active">Contact Us</li>
+				            <li><a href="/">Домашня сторінка</a></li>
+				            <li class="active">Наші контакти</li>
 				        </ul>
         			</div>
         		</div>
