@@ -1,6 +1,6 @@
 @extends('layouts.main')
 
-@section('contacts')
+@section('content')
 	<!--// SubHeader \\-->
 	<div class="ereaders-subheader">
 		<div class="ereaders-subheader-text">
@@ -104,7 +104,7 @@
 			</div>
 		</div>
 		<!--// Main Section \\-->
-		<!--// Main Section \\-->                
+		<!--// Main Section \\-->
         <div class="ereaders-main-section ereaders-partner-sliderfull">
             <div class="container">
                 <div class="row">
@@ -130,5 +130,4 @@
 
 	</div>
 	<!--// Main Content \\-->
-@ensection
-	
+@endsection

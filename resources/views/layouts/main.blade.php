@@ -17,8 +17,8 @@
 	 <link href="style.css" rel="stylesheet">
 	 <link href="css/color.css" rel="stylesheet">
 	 <link href="css/responsive.css" rel="stylesheet">
-	 
-	 
+
+
 
 	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -28,7 +28,7 @@
 	 <![endif]-->
 	</head>
 	<body>
-	 
+
 	 <!--// Main Wrapper \\-->
 	 <div class="ereaders-main-wrapper">
 
@@ -174,7 +174,7 @@
 			</div>
 		</div>
 		<!--// Slider \\-->
-		 
+
 	</div>
 	<!--// Main Banner \\-->
 
@@ -182,16 +182,16 @@
 	<div class="ereaders-main-content ereaders-content-padding">
 
 @yield('content')
-@yield('contacts')
+
 		<!--// Main Section \\-->
-		
+
         <!--// Main Section \\-->
 
 	</div>
 	<!--// Main Content \\-->
 
 	<!--// Footer \\-->
-	<footer id="ereaders-footer" class="ereaders-footer-one">	 
+	<footer id="ereaders-footer" class="ereaders-footer-one">
 
 		<!--// Footer Widget \\-->
 		<div class="ereaders-footer-widget">
@@ -231,7 +231,7 @@
 					</div>
 				</div>
 			</div>
-		</div>		
+		</div>
 		<!--// CopyRight \\-->
 
 	</footer>
