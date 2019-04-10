@@ -19,21 +19,20 @@ class AdminController extends Controller
     public static function index() 
     {
 		$data = DB::table('users')->get();
-		// dd($data);
+		 
     	return view('layouts.Admin.users')->with('data', $data);
     }
 
     public static function add(Request $request)
     {
     	$user = new User();
-    	if ($request->isMethod('get')) {
+    	if ($request->isMethod('post')) {
     		$data = $request->all();
  			$user->name = $data['name'];
  			$user->email = $data['email'];
  			$user->password = $data['password'];
-
     		$user->save();
-
+    		//dd($user);
 		}
 		return view('layouts.Admin.users_form');
     }

@@ -6,7 +6,7 @@
 	</div>
 	@foreach($data as $user)
    {{$user->id}}
-   {{$user->name}}
+   {{$user->password}}
    {{$user->email}}
 @endforeach
 </div>
