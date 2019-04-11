@@ -18,11 +18,11 @@ Route::get('information', ['as' => 'admin.information', function () {
 // 	return AdminSection::view($content, 'Users');
 // }]);
 
-Route::get('users',['as' => 'admin.users', function() {
-	return AdminSection::view(App\Http\Controllers\Admin\AdminController::index(), 'Information');
-}]);
+// Route::get('users',['as' => 'admin.users', function() {
+// 	return AdminSection::view(App\Http\Controllers\Admin\AdminController::index(), 'Information');
+// }]);
 
-Route::get('users/add',['as' => 'admin.users_form', function(Request $request) {
-	return AdminSection::view(App\Http\Controllers\Admin\AdminController::add($request), 'User add');
-}]);
+// Route::get('users/add',['as' => 'admin.users_form', function(Request $request) {
+// 	return AdminSection::view(App\Http\Controllers\Admin\AdminController::add($request), 'User add');
+// }]);
 

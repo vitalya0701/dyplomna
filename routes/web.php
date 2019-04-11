@@ -39,7 +39,7 @@ Route::get('/books', function () {
   // return view('layouts.main');
 });
 
-Route::get('/test', function () {
-  return view('layouts.Admin.users');
-  // return view('layouts.main');
-});
+// Route::get('/test', function () {
+//   return view('layouts.Admin.users');
+//   // return view('layouts.main');
+// });

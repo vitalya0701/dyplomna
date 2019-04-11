@@ -1,4 +1,4 @@
-<div class="container-fluid p-0">
+<!-- <div class="container-fluid p-0">
 	<div class="d-flex col-12 p-0 justify-content-between">
 		<h4>title</h4>
 		<?php /*<a href="{{route('users/add')}}">add</a>*/ ?>
@@ -6,7 +6,7 @@
 	</div>
 	@foreach($data as $user)
    {{$user->id}}
-   {{$user->password}}
+   {{$user->name}}
    {{$user->email}}
 @endforeach
-</div>
+</div> -->

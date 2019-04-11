@@ -33,12 +33,13 @@ return [
         'icon'  => 'fa fa-exclamation-circle',
         'url'   => route('admin.information'),
     ],
-    [
+        [
         'title' => 'Users',
         'icon'  => 'fa fa-exclamation-circle',
-        'url'   => route('admin.users'),
+        'pages' => [
+            (new Page(\App\Users::class)),
+        ]   
     ],
-
     // Examples
     // [
     //    'title' => 'Content',

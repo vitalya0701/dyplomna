@@ -1,4 +1,4 @@
-{{ Form::open(array('url' => '/admin/users/add', 'method' => 'get')) }}
+<!-- {{ Form::open(array('url' => '/admin/users/add', 'method' => 'post')) }}
 <div class="form-group">
 	{{ Form::label('name', 'Name')}}
 	{{ Form::text('name', null, array('class' => 'form-control')) }}
@@ -12,4 +12,4 @@
 	{{ Form::password('password', array('class' => 'form-control')) }}
 </div>
 {{ Form::submit('Add', array('class' => 'btn btn-primary')) }}
-{{ Form::close() }}
+{{ Form::close() }} -->
