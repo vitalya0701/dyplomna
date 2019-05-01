@@ -6,5 +6,5 @@ use Illuminate\Http\Request;
 
 class contacts extends Controller
 {
-    //
+   return 1;
 }
