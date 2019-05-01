@@ -39,9 +39,10 @@
 					<div class="col-md-12">
 						<div class="ereaders-books ereaders-book-grid">
 							<ul class="row">
-								<li class="col-md-3">
+								@foreach($books as $book)
+                                 <li class="col-md-3">
 									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img1.jpg" alt=""></a>
+										<a href="book-detail.html"><img src="/{{ $book->image }}" alt=""></a>
 										<figcaption>
 											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
 											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
@@ -49,189 +50,14 @@
 										</figcaption>
 									</figure>
 									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
+										<h2><a href="book-detail.html">{{ $book->name  }}</a></h2>
 										<span>$200.00</span>
 										<small>Lorem ipsum dolor</small>
 										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
 									</div>
 								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img7.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img2.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img3.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img4.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img5.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img6.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img7.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img2.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img3.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img4.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-								<li class="col-md-3">
-									<figure>
-										<a href="book-detail.html"><img src="extra-images/book-grid-img1.jpg" alt=""></a>
-										<figcaption>
-											<a href="#" class="icon ereaders-link" data-toggle="tooltip" title="Add To Link"></a>
-											<a href="#" class="icon ereaders-heart" data-toggle="tooltip" title="Add To Wishlist"></a>
-											<a href="#" class="icon ereaders-reload" data-toggle="tooltip" title="Reload"></a>
-										</figcaption>
-									</figure>
-									<div class="ereaders-book-grid-text">
-										<h2><a href="book-detail.html">Corporate Business</a></h2>
-										<span>$200.00</span>
-										<small>Lorem ipsum dolor</small>
-										<a href="book-detail.html" class="ereaders-simple-btn ereaders-bgcolor">Add To Cart</a>
-									</div>
-								</li>
-							</ul>
+                                @endforeach
+                        </ul>
 						</div>
 						<!--// Pagination \\-->
                         <div class="ereaders-pagination">

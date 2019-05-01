@@ -14,30 +14,31 @@
 /*Route::get('/', function () {
     return view('layouts.index.page');
 });*/
-
+use Illuminate\Http\Request;
 // Route::get('/index.php.blade', function () {
 //   return view('layouts.index');
 //   // return view('layouts.main');
 // });
-Route::get('/', function () {
-    return view('layouts.main');
-})->name('main');
+//Route::get('/', function (Request $var) {
+//   return view('layouts.main');
+//})->name('main');
+
+
+Route::get('/', 'IndexController@index')->name('main');
+
 Route::get('/contacts', function () {
   return view('layouts.contacts');
   // return view('layouts.main');
-});
-Route::get('/literature', function () {
-  return view('layouts.literature');
-  // return view('layouts.main');
-});
+})->name('contacts');
+Route::get('/literature', 'literatureController@index')->name('literature');
 Route::get('/popular', function () {
   return view('layouts.popular');
   // return view('layouts.main');
-});
+})->name('popular');
 Route::get('/books', function () {
   return view('layouts.books');
   // return view('layouts.main');
-});
+})->name('books');
 
 // Route::get('/test', function () {
 //   return view('layouts.Admin.users');

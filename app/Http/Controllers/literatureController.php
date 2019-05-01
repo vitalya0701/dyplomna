@@ -3,13 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Book;
 
 class literatureController extends Controller
 {
     //
-     public function execute(Request $request) {
-    		return view('layouts.literature');
-    		// return view('layouts.main');
+     public function index(Request $request) {
+
+         $books = Book::all();
+         return view('layouts.literature')->with([
+             'books' => $books
+         ]);
+
 
     }
 }

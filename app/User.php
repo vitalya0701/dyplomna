@@ -36,4 +36,9 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function get_related_books()
+    {
+        return $this->belongsTo('App\Book', '');
+    }
 }

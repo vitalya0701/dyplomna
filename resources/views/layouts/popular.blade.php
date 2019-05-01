@@ -153,7 +153,7 @@
 		                          <!--// comment-respond \\-->
 		                        </div>
 		                      </div>
-		                    </div>		                    
+		                    </div>
 	                  	</div>
 	                  	<!--// Tabs \\-->
 	                  	<h2 class="ereaders-section-heading">Related products</h2>
@@ -229,3 +229,4 @@
 		</div>
 		<!--// Main Section \\-->
 @endsection
+
