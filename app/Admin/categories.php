@@ -21,9 +21,10 @@ AdminSection::registerModel(categories::class, function (ModelConfiguration $cat
     // Create And Edit
     $categories->onCreateAndEdit(function() {
         $form = AdminForm::panel()->addBody(
-          //  AdminFormElement::text('title', 'Title')->required()->unique(),
-          //  AdminFormElement::textarea('address', 'Address')->setRows(2),
-          //  AdminFormElement::text('phone', 'Phone')
+            AdminFormElement::text('name', 'Name')->required()->unique(),
+             AdminFormElement::select('parent_id', 'Parent_id','App\Categories')->setDisplay('name'),
+            AdminFormElement::textarea('description', 'Description')->setRows(2),
+            AdminFormElement::text('keywords', 'Keywords')
         );
         return $form;
     });

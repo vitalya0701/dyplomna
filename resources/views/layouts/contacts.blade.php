@@ -8,8 +8,8 @@
 	        <div class="container">
 	            <div class="row">
 	                <div class="col-md-12">
-                		<h1>Contact Us</h1>
-                		<p>Ut porta massa in risus maximus, eget sodales massa malesuada. Fusce et neque aliquet.</p>
+                		<h1>Наші контакти</h1>
+                		<p>Ви можете скористатись послугою наші контакти.Телефонуйте за номером телефону вказаним нище.</p>
                 	</div>
                 </div>
             </div>
@@ -38,49 +38,49 @@
 				<div class="row">
 					<div class="col-md-12">
 						<div class="ereaders-fancy-title">
-							<h2>Get in touch</h2>
+							<h2>Телефонуй до нас!</h2>
 							<div class="clearfix"></div>
-							<p>Large online bookstores offer used books for sale, too. Individuals wishing to sell their used Books</p>
+							<p>Інтернет-книжковий магазин також пропонує скачування різних книг комп'ютерного спрямування. Особи, які бажають скачати книги можуть звернутись за допомогою до наших операторів.</p>
 						</div>
 						<div class="ereaders-contact-info">
 							<ul>
 								<li>
 									<div class="ereaders-contact-info-wrap">
 										<span><i class="icon ereaders-phone-call"></i><small></small></span>
-										<h5>Call Us At</h5>
-										<p>0032 987 65 432</p>
-										<p>+00 123 45 678</p>
+										<h5>Наші оператори</h5>
+										<p>+380 95 73 59 434 - Віталій</p>
+										<p>380 73 69 323 - Олена</p>
 									</div>
 								</li>
 								<li>
 									<div class="ereaders-contact-info-wrap">
 										<span class="second"><i class="icon ereaders-placeholder"></i><small></small></span>
-										<h5>Mail Us At</h5>
-										<a href="mailto:yourdomain@name.com">info@example.com</a>
-										<a href="mailto:yourdomain@name.com">abc@ebook.com</a>
+										<h5>Наша електронна пошта</h5>
+										<a href="mailto:yourdomain@name.com">admin1.books.gmail.com</a>
+										<a href="mailto:yourdomain@name.com">admin2.books.gmail.com</a>
 									</div>
 								</li>
 								<li>
 									<div class="ereaders-contact-info-wrap">
 										<span class="left"><i class="icon ereaders-envelope"></i><small></small></span>
-										<h5>Find Us At</h5>
-										<p>Quisque ultricies luctus nisi non dapibus ullam</p>
+										<h5>Повідомлення адміністратору</h5>
+										<p>Щоб відправити повідомлення адміністратору заповніть поле нище.</p>
 									</div>
 								</li>
 							</ul>
 						</div>
 						<div class="ereaders-contact-wrap">
 							<div class="ereaders-contact-form">
-								<h2>feel free to <span>contact us</span></h2>
-								<p>Aenean ultricies iaculis cursus. Mauris enim tellus, finibus in felis a, sollicitudin iaculis dolor.</p>
+								<h2>Введіть повідомлення <span>нашому адміністратору</span></h2>
+								<p>Також можете повідомити нам про помилку на нашому сайті тут.</p>
 								<form method="post" class="myform" action="process-form.php">
 									<ul>
 										<li class="full-form">
-											<textarea placeholder="Massege" name="Message"></textarea>
+											<textarea placeholder="Введіть повідомлення" name="Message"></textarea>
 											<i class="fa fa-pencil-square-o"></i>
 										</li>
 										<li>
-											<input value="Name" onblur="if(this.value == '') { this.value ='Name'; }" onfocus="if(this.value =='Name') { this.value = ''; }" tabindex="0" type="text" name="name">
+											<input value="Ім'я" onblur="if(this.value == '') { this.value ='Name'; }" onfocus="if(this.value =='Name') { this.value = ''; }" tabindex="0" type="text" name="name">
 											<i class="fa fa-user"></i>
 										</li>
 										<li>

@@ -43,8 +43,8 @@
 						<a href="#menu" class="menu-link active"><span></span></a>
 						<nav id="menu" class="menu navbar navbar-default">
 							<ul class="level-1 navbar-nav">
-								<li class="active"><a href="/">Головна</a></li>
-								<li><a href="/blog/public/literature">Комп'ютерна література</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+								<li class="active"><a href="{{ route('index') }}">Головна</a></li>
+								<li><a href="{{ route('literature') }}">Комп'ютерна література</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 									<ul class="sub-menu level-2">
 										<li><a href="blog-grid.html">Apple</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 										</li>
@@ -58,13 +58,13 @@
 										</li>
 									</ul>
 								</li>
-								<li><a href="/blog/public/popular">Популярне</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+								<li><a href="{{ route('popular') }}">Популярне</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
-								<li><a href="#">Особистий Кабінет</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+								<li><a href="{{ route('register') }}">Особистий Кабінет</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
-								<li><a href="/blog/public/books">Книги Програмування</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+								<li><a href="{{ route('books') }}">Книги Програмування</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
-								<li><a href="/blog/public/contacts">Наші Контакти</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
+								<li><a href="{{ route('contacts') }}">Наші Контакти</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 								</li>
 							</ul>
 						</nav>
