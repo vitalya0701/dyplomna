@@ -9,14 +9,14 @@
 	 <title>Dyplomna:)</title>
 
 	 <!-- Css Files -->
-	 <link href="css/bootstrap.css" rel="stylesheet">
-	 <link href="css/font-awesome.css" rel="stylesheet">
-	 <link href="css/flaticon.css" rel="stylesheet">
-	 <link href="css/slick-slider.css" rel="stylesheet">
-	 <link href="css/fancybox.css" rel="stylesheet">
-	 <link href="style.css" rel="stylesheet">
-	 <link href="css/color.css" rel="stylesheet">
-	 <link href="css/responsive.css" rel="stylesheet">
+	 <link href="/css/bootstrap.css" rel="stylesheet">
+	 <link href="/css/font-awesome.css" rel="stylesheet">
+	 <link href="/css/flaticon.css" rel="stylesheet">
+	 <link href="/css/slick-slider.css" rel="stylesheet">
+	 <link href="/css/fancybox.css" rel="stylesheet">
+	 <link href="/style.css" rel="stylesheet">
+	 <link href="/css/color.css" rel="stylesheet">
+	 <link href="/css/responsive.css" rel="stylesheet">
 
 
 
@@ -37,7 +37,7 @@
 		<div class="ereaders-main-header">
 			<div class="container">
 				<div class="row">
-					<aside class="col-md-3"> <a href="{{ route('main') }}" class="logo"><img src="images/logo.png" alt=""></a> </aside>
+					<aside class="col-md-3"> <a href="{{ route('main') }}" class="logo"><img src="/images/logo.png" alt=""></a> </aside>
 					<aside class="col-md-9">
 						<!--// Navigation \\-->
 						<a href="#menu" class="menu-link active"><span></span></a>
@@ -191,18 +191,18 @@
 	<!--// Main Wrapper \\-->
 
 	 <!-- jQuery (necessary for JavaScript plugins) -->
-	 <script type="text/javascript" src="script/jquery.js"></script>
-	 <script type="text/javascript" src="script/jquery-ui.js"></script>
-	 <script type="text/javascript" src="script/bootstrap.min.js"></script>
-	 <script type="text/javascript" src="script/slick.slider.min.js"></script>
-	 <script type="text/javascript" src="script/fancybox.pack.js"></script>
-	 <script type="text/javascript" src="script/isotope.min.js"></script>
-	 <script type="text/javascript" src="script/progressbar.js"></script>
-	 <script type="text/javascript" src="script/jquery.countdown.min.js"></script>
-	 <script type="text/javascript" src="script/circle-chart.js"></script>
-	 <script type="text/javascript" src="script/numscroller.js"></script>
+	 <script type="text/javascript" src="/script/jquery.js"></script>
+	 <script type="text/javascript" src="/script/jquery-ui.js"></script>
+	 <script type="text/javascript" src="/script/bootstrap.min.js"></script>
+	 <script type="text/javascript" src="/script/slick.slider.min.js"></script>
+	 <script type="text/javascript" src="/script/fancybox.pack.js"></script>
+	 <script type="text/javascript" src="/script/isotope.min.js"></script>
+	 <script type="text/javascript" src="/script/progressbar.js"></script>
+	 <script type="text/javascript" src="/script/jquery.countdown.min.js"></script>
+	 <script type="text/javascript" src="/script/circle-chart.js"></script>
+	 <script type="text/javascript" src="/script/numscroller.js"></script>
 	 <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js@key=AIzaSyAs_m2ywm-bE8z9YM_WmtPaIQNIosN4Dxo&callback=initMap"></script>
-	 <script type="text/javascript" src="script/functions.js"></script>
+	 <script type="text/javascript" src="/script/functions.js"></script>
 
 	</body>
 </html>

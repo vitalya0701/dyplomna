@@ -40,6 +40,9 @@ Route::get('/books', function () {
   // return view('layouts.main');
 })->name('books');
 
+Route::get('book/id/{id}', 'literatureController@book' );
+
+
 // Route::get('/test', function () {
 //   return view('layouts.Admin.users');
 //   // return view('layouts.main');

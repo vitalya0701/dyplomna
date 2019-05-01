@@ -17,4 +17,14 @@ class literatureController extends Controller
 
 
     }
+
+    public function book($id) {
+
+        $book = Book::find($id);
+        return view('layouts.detail')->with([
+            'book' => $book
+        ]);
+
+
+    }
 }
