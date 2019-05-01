@@ -20,9 +20,9 @@ AdminSection::registerModel(User::class, function (ModelConfiguration $model) {
     // Create And Edit
     $model->onCreateAndEdit(function() {
         $form = AdminForm::panel()->addBody(
-          //  AdminFormElement::text('title', 'Title')->required()->unique(),
-          //  AdminFormElement::textarea('address', 'Address')->setRows(2),
-          //  AdminFormElement::text('phone', 'Phone')
+            AdminFormElement::text('title', 'Title')->required()->unique(),
+            AdminFormElement::textarea('address', 'Address')->setRows(2),
+            AdminFormElement::text('phone', 'Phone')
         );
         return $form;
     });
