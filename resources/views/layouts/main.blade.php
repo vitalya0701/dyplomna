@@ -23,8 +23,8 @@
 	 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	 <!--[if lt IE 9]>
-		 <script src="../../../https@oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-		 <script src="../../../https@oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+		 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 	 <![endif]-->
 	</head>
 	<body>
@@ -43,14 +43,9 @@
 						<a href="#menu" class="menu-link active"><span></span></a>
 						<nav id="menu" class="menu navbar navbar-default">
 							<ul class="level-1 navbar-nav">
-<<<<<<< HEAD
 								<li class="active"><a href="{{ route('main') }}">Головна</a></li>
 								<li><a href={{ route('literature') }}>Комп'ютерна література</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-=======
-								<li class="active"><a href="{{ route('index') }}">Головна</a></li>
-								<li><a href="{{ route('literature') }}">Комп'ютерна література</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
->>>>>>> refs/remotes/origin/master
-									<ul class="sub-menu level-2">
+								<ul class="sub-menu level-2">
 										<li><a href="blog-grid.html">Apple</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
 										</li>
 										<li><a href="blog-large.html">Microsoft</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
@@ -63,24 +58,10 @@
 										</li>
 									</ul>
 								</li>
-<<<<<<< HEAD
-								<li><a href={{ route('popular') }}>Популярне</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-=======
-								<li><a href="{{ route('popular') }}">Популярне</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
->>>>>>> refs/remotes/origin/master
-								</li>
-								<li><a href="{{ route('register') }}">Особистий Кабінет</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-								</li>
-<<<<<<< HEAD
-								<li><a href={{ route('books') }}>Книги Програмування</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-								</li>
-								<li><a href={{ route('contacts') }}>Наші Контакти</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-=======
-								<li><a href="{{ route('books') }}">Книги Програмування</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
-								</li>
-								<li><a href="{{ route('contacts') }}">Наші Контакти</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span>
->>>>>>> refs/remotes/origin/master
-								</li>
+								<li><a href={{ route('popular') }}>Популярне</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span></li>
+                                <li><a href={{ route('books') }}>Книги Програмування</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span></li>
+                                <li><a href={{ route('contacts') }}>Наші Контакти</a><span class="has-subnav"><i class="fa fa-angle-down"></i></span></li>
+=
 							</ul>
 						</nav>
 					</aside>

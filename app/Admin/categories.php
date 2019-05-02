@@ -21,18 +21,17 @@ AdminSection::registerModel(Categories::class, function (ModelConfiguration $cat
     // Create And Edit
     $categories->onCreateAndEdit(function() {
         $form = AdminForm::panel()->addBody(
-<<<<<<< HEAD
+
             AdminFormElement::text('name', 'Title')->required(),
             //AdminFormElement::number('parent_id', 'Parent ID'),
             AdminFormElement::select('parent_id', 'Parent ID', '\App\Categories')->setDisplay('name'),
             AdminFormElement::textarea('description', 'Description')->required(),
-            AdminFormElement::text('keywords', 'Keywords')->required()
-=======
+            AdminFormElement::text('keywords', 'Keywords')->required(),
             AdminFormElement::text('name', 'Name')->required()->unique(),
-             AdminFormElement::select('parent_id', 'Parent_id','App\Categories')->setDisplay('name'),
+            AdminFormElement::select('parent_id', 'Parent_id','App\Categories')->setDisplay('name'),
             AdminFormElement::textarea('description', 'Description')->setRows(2),
             AdminFormElement::text('keywords', 'Keywords')
->>>>>>> refs/remotes/origin/master
+
         );
         return $form;
     });
